@@ -1,0 +1,6 @@
+
+5, nie wypisano
+6, wypisano,
+
+12: Większa liczba wezłów by leciała wraz z powiększeniem tablicy statycznej, użycie ArrayList jest lepsze przez jego dynamiczność i brak potrzeby zmieniania wielkości
+jeżeli jesteśmy pewni tego, że nie wyjdziemy za zakres to Array > ArrayList, jeżeli nie jesteśmy to ArrayList > Array.
