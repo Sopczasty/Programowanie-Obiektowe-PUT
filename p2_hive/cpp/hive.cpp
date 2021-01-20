@@ -123,7 +123,7 @@ int main() {
     hive.honeyMade(32.3);
     std::cout << "2. Poziom szczescia: " << hive.getHappiness() << std::endl;
     
-    hive. changeStolenPercent(100);
+    hive.changeStolenPercent(100);
 
     hive.honeyMade(13.7);
     std::cout << "2. Liczba pszczol: " << hive.getAmountOfBees() << std::endl;

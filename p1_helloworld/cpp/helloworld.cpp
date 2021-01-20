@@ -10,6 +10,12 @@ int main()
         std::cout << "Introduce yourself: ";
         std::cout.flush();
         std::getline(std::cin, fellow);
-        std::cout << "Hello "<< fellow << std::endl;
+        if(fellow!="exit")
+            std::cout << "Hello " << fellow << std::endl;
     }
 }
+
+/*
+Obserwacje:
+Trawersowanie kodu linijka po linijce + widoczność działania operatorów
+*/
