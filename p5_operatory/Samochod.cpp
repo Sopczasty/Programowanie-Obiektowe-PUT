@@ -27,7 +27,7 @@ bool Samochod::operator !() const {
     if(model != "") return true;
     return false;
 }
-bool Samochod::operator < (const Samochod &samochod) const {
+bool Samochod::operator < (const Samochod &samochod) const { //funckja const wykonuje operacje odczytanie i nie zapisuje, stad tutaj uzycie const. operator ten sluzy porownaniu i zwroceniu bool'a
     return this->model < samochod.model;
 }
 void Samochod::drive(float dest) {
